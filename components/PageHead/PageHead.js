@@ -2,7 +2,9 @@ import Head from 'next/head';
 import React from 'react';
 
 const PageHead = () => (
-  <Head>
+  <Head>    
+    <title>page title here</title>
+    <link rel="icon" href="/favicon.ico" />
     <link
       rel="stylesheet preload"
       href="/fonts/Montserrat/Montserrat-Regular.ttf"
