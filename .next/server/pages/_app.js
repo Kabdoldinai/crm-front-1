@@ -23,13 +23,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./components/PageHead/PageHead.js":
+/*!*****************************************!*\
+  !*** ./components/PageHead/PageHead.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst PageHead = ()=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n        __source: {\n            fileName: \"/Users/aiya.mukhamedsalova/Desktop/Mine/crm-front/components/PageHead/PageHead.js\",\n            lineNumber: 5,\n            columnNumber: 3\n        },\n        __self: undefined,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"link\", {\n                rel: \"stylesheet preload\",\n                href: \"/fonts/Montserrat/Montserrat-Regular.ttf\",\n                as: \"style\",\n                crossOrigin: \"anonymous\",\n                __source: {\n                    fileName: \"/Users/aiya.mukhamedsalova/Desktop/Mine/crm-front/components/PageHead/PageHead.js\",\n                    lineNumber: 6,\n                    columnNumber: 5\n                },\n                __self: undefined\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"link\", {\n                rel: \"stylesheet preload\",\n                href: \"/fonts/Montserrat/Montserrat-Medium.ttf\",\n                as: \"style\",\n                crossOrigin: \"anonymous\",\n                __source: {\n                    fileName: \"/Users/aiya.mukhamedsalova/Desktop/Mine/crm-front/components/PageHead/PageHead.js\",\n                    lineNumber: 12,\n                    columnNumber: 6\n                },\n                __self: undefined\n            })\n        ]\n    })\n;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PageHead);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1BhZ2VIZWFkL1BhZ2VIZWFkLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQTRCO0FBQ0g7QUFFekIsS0FBSyxDQUFDRSxRQUFRLDZFQUNYRixrREFBSTs7Ozs7Ozs7aUZBQ0ZHLENBQUk7Z0JBQ0hDLEdBQUcsRUFBQyxDQUFvQjtnQkFDeEJDLElBQUksRUFBQyxDQUEwQztnQkFDL0NDLEVBQUUsRUFBQyxDQUFPO2dCQUNWQyxXQUFXLEVBQUMsQ0FBVzs7Ozs7Ozs7aUZBRXZCSixDQUFJO2dCQUNKQyxHQUFHLEVBQUMsQ0FBb0I7Z0JBQ3hCQyxJQUFJLEVBQUMsQ0FBeUM7Z0JBQzlDQyxFQUFFLEVBQUMsQ0FBTztnQkFDVkMsV0FBVyxFQUFDLENBQVc7Ozs7Ozs7Ozs7O0FBSzdCLGlFQUFlTCxRQUFRLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jcm0tZnJvbnQvLi9jb21wb25lbnRzL1BhZ2VIZWFkL1BhZ2VIZWFkLmpzP2Y2MWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmNvbnN0IFBhZ2VIZWFkID0gKCkgPT4gKFxuICA8SGVhZD5cbiAgICA8bGlua1xuICAgICAgcmVsPVwic3R5bGVzaGVldCBwcmVsb2FkXCJcbiAgICAgIGhyZWY9XCIvZm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmXCJcbiAgICAgIGFzPVwic3R5bGVcIlxuICAgICAgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIlxuICAgIC8+XG4gICAgIDxsaW5rXG4gICAgICByZWw9XCJzdHlsZXNoZWV0IHByZWxvYWRcIlxuICAgICAgaHJlZj1cIi9mb250cy9Nb250c2VycmF0L01vbnRzZXJyYXQtTWVkaXVtLnR0ZlwiXG4gICAgICBhcz1cInN0eWxlXCJcbiAgICAgIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCJcbiAgICAvPlxuICA8L0hlYWQ+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBQYWdlSGVhZDsiXSwibmFtZXMiOlsiSGVhZCIsIlJlYWN0IiwiUGFnZUhlYWQiLCJsaW5rIiwicmVsIiwiaHJlZiIsImFzIiwiY3Jvc3NPcmlnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/PageHead/PageHead.js\n");
+
+/***/ }),
+
 /***/ "./pages/_app.js":
 /*!***********************!*\
   !*** ./pages/_app.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MyApp)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_NavigationBar_NavigationBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/NavigationBar/NavigationBar */ \"./components/NavigationBar/NavigationBar.js\");\n\n\nfunction MyApp() {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_NavigationBar_NavigationBar__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        __source: {\n            fileName: \"/Users/aiya.mukhamedsalova/Desktop/Mine/crm-front/pages/_app.js\",\n            lineNumber: 5,\n            columnNumber: 5\n        },\n        __self: this\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQXFFO0FBRXRELFFBQVEsQ0FBQ0MsS0FBSyxHQUFHLENBQUM7SUFDL0IsTUFBTSxzRUFDSEQsK0VBQWE7Ozs7Ozs7O0FBRWxCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jcm0tZnJvbnQvLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE5hdmlnYXRpb25CYXIgZnJvbSAnLi4vY29tcG9uZW50cy9OYXZpZ2F0aW9uQmFyL05hdmlnYXRpb25CYXInXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE15QXBwKCkge1xuICByZXR1cm4gKFxuICAgIDxOYXZpZ2F0aW9uQmFyIC8+XG4gIClcbn0iXSwibmFtZXMiOlsiTmF2aWdhdGlvbkJhciIsIk15QXBwIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MyApp)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/PageHead/PageHead */ \"./components/PageHead/PageHead.js\");\n/* harmony import */ var _components_NavigationBar_NavigationBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/NavigationBar/NavigationBar */ \"./components/NavigationBar/NavigationBar.js\");\n\n\n\nfunction MyApp() {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                __source: {\n                    fileName: \"/Users/aiya.mukhamedsalova/Desktop/Mine/crm-front/pages/_app.js\",\n                    lineNumber: 7,\n                    columnNumber: 5\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_NavigationBar_NavigationBar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                __source: {\n                    fileName: \"/Users/aiya.mukhamedsalova/Desktop/Mine/crm-front/pages/_app.js\",\n                    lineNumber: 8,\n                    columnNumber: 5\n                },\n                __self: this\n            })\n        ]\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFzRDtBQUNlO0FBRXRELFFBQVEsQ0FBQ0UsS0FBSyxHQUFHLENBQUM7SUFDL0IsTUFBTTs7aUZBRUhGLHFFQUFROzs7Ozs7OztpRkFDUkMsK0VBQWE7Ozs7Ozs7Ozs7QUFHbEIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2NybS1mcm9udC8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUGFnZUhlYWQgZnJvbSAnLi4vY29tcG9uZW50cy9QYWdlSGVhZC9QYWdlSGVhZCdcbmltcG9ydCBOYXZpZ2F0aW9uQmFyIGZyb20gJy4uL2NvbXBvbmVudHMvTmF2aWdhdGlvbkJhci9OYXZpZ2F0aW9uQmFyJ1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNeUFwcCgpIHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgIDxQYWdlSGVhZCAvPlxuICAgIDxOYXZpZ2F0aW9uQmFyIC8+XG4gICAgPC8+XG4gIClcbn0iXSwibmFtZXMiOlsiUGFnZUhlYWQiLCJOYXZpZ2F0aW9uQmFyIiwiTXlBcHAiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
@@ -40,6 +50,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Toolbar");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
 
 /***/ }),
 
