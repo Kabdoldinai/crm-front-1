@@ -110,7 +110,7 @@ function RegisterCompany() {
                                </SiteAdress>
                         </Flex>
                     </ContainerForContacts>
-                    <SaveAndCancelBtn>
+                    <SaveAndCancelBtn className="mb">
                         <button className="save">Сохранить</button>
                         <button className="cancel">Отмена</button>
                     </SaveAndCancelBtn>

@@ -112,6 +112,8 @@ export const SiteAdress = styled.div`
 export const SaveAndCancelBtn = styled.div`
     
     button {
+    margin-bottom: 4rem;
+    margin-top: 18px;
     font-family: Montserrat;
     cursor: pointer;
     font-weight: 200;

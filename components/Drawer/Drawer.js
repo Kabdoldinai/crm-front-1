@@ -3,18 +3,17 @@ import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MuiDrawer from '@mui/material/Drawer';
 import MuiAppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
 import List from '@mui/material/List';
 import CssBaseline from '@mui/material/CssBaseline';
-import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import ListItem from '@mui/material/ListItem';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import TopHeader from '../../components/TopHeader/TopHeader';
 import RegisterCompany from '../../components/RegisterCompany/RegisterCompany';
+import CEOpage from '../../components/CEOpage/CEOpage';
+import Requisites from '../../components/Requisites/Requisites';
+import Offices from '../../components/Offices/Offices';
 import { LeftSideBar, ActiveIcon } from './Drawer.style';
-
 
 const drawerWidth = 240;
 
@@ -171,6 +170,12 @@ export default function MiniDrawer() {
         <DrawerHeader />
         <TopHeader />
         <RegisterCompany />
+        <TopHeader />
+        <CEOpage />
+        <TopHeader />
+        <Requisites />
+        <TopHeader />
+        <Offices />
       </Box>
     </Box>
   );
