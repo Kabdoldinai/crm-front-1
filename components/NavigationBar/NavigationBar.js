@@ -9,10 +9,10 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import { Wrapper } from './NavigationBar.style';
+import { Wrapper, LogoImage } from './NavigationBar.style';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Главная', 'Компания', 'Сотрудники', 'Подрядчики', 'Абоненты', 'Реестр документов', 'Карта'];
+const settings = ['Зилипупкин А.В.'];
 
 const NavigationBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -36,7 +36,6 @@ const NavigationBar = () => {
   return (
     <Wrapper>
     <AppBar position="static">
-      <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -44,7 +43,9 @@ const NavigationBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            LOGO
+          <LogoImage>
+            <img src="/assets/images/logo.png" alt="" width="52" height="18" />
+          </LogoImage>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -131,7 +132,6 @@ const NavigationBar = () => {
             </Menu>
           </Box>
         </Toolbar>
-      </Container>
     </AppBar>
     </Wrapper>
   );
