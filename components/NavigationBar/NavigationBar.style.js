@@ -16,8 +16,14 @@ export const Wrapper = styled.div `
         line-height: 19px;
         text-transform: none;
     }
+    
+   
 `;
 
 export const LogoImage = styled.div `
     margin: 0 100px 0 10px;
+    
+    img {
+    margin-right: -28px;
+    }
 `;
