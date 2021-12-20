@@ -26,8 +26,9 @@ export const Flex = styled.div`
    div {
    display: block;
    }
+   
    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-        padding: 8.5px 14px;
+        padding: 8.5px 14px!important;
    }  
 `;
 
